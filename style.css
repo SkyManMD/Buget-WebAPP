@@ -1,0 +1,248 @@
+﻿*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background-color:#f9f9f9;
+}
+
+.content{
+	margin:0 auto;
+}
+
+.menu{
+	padding:5px;
+	width:1000px;
+	margin: 0 auto;
+}
+
+.menu ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.menu li{
+	display:inline;
+}
+
+.menu button{
+	height:35px;
+	width:179px;
+	background-color:#f9f9f9;
+	border:0; padding:0; margin:0;
+	border-top:5px;
+	border-bottom:5px;
+	border-style:solid;
+	border-color:#f9f9f9;
+}
+
+.menu button:hover{
+	color:#7aa9c9;
+	border-bottom-color:#33b5e5;
+}
+
+.menu button:focus{  /*cind este apasat*/
+	outline: 0;  /*stergem borderul exterior standart*/
+	color:#33b5e5;
+}
+
+.ajax_body,.add_body{
+	margin: 0 auto;
+	width:1000px;
+	/*height:100%;*/
+	font-family:"calibri light";
+	font-size:17px;
+	position:relative;
+}
+
+.footer{
+	width:1000px;
+	margin: 0 auto;
+	font-family:"browallia new";
+	text-align:right;
+}
+
+input[type=submit]{
+	border:0; padding:0; margin:0;
+	background-color:#18a3d4;
+	width:100px;
+	height:39px;
+	color:white;
+	border-radius:3px;
+}
+
+.select_cl select{
+   background: transparent;
+   width: 310px;
+   padding: 4px;
+   font-size: 15px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 39px;
+   -webkit-appearance: none;
+}
+
+.select_cl{
+   width: 282px;
+   height: 39px;
+   overflow: hidden;
+   background: url(../img/down_arrow_select.jpg) no-repeat right #ddd;
+   border: 1px solid #ccc;
+}
+
+input[type=date],input[type=number],input[type=text]{
+	font-size:18px;
+	color:gray;
+	padding:5px;
+}
+
+.insert_div{
+	position:absolute;
+	left:100px;
+}
+
+#right_image{
+	width:300px;
+	height:300px;
+	position:absolute;
+	top:65px;
+	right:100px;
+}
+
+.nume_localitate{
+	font-family:calibri;
+	font-size:20px;
+	color:#18a3d4;
+	font-weight:bold;
+}
+
+.localitati, .categorii, .institutie_chelt, .suma_and_data{
+	float:left;
+	padding:10px;
+	font-size:14px;
+}
+
+.selected_items{
+	clear:both;
+}
+
+.spoiler{
+	border:1px solid gray;
+	margin:10px;
+	border-radius:2px;
+	background-color:#ececec;
+}
+
+.spoiler  > .spoiler_title
+{
+	width:100%;
+	display:block;
+	font-family:arial;
+	color:#555555;
+	background-color:#ececec;
+	background-image:url(../img/spoiler.png) ;
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+.spoiler  > .spoiler_title:hover, button:hover, input[type=submit]:hover
+{
+	cursor:pointer;
+}
+
+.spoiler  > .spoiler_body
+{
+	display: none;
+	border-top: 3px solid white;
+	width:100%;
+	background-color:#f1f1f1;
+	/*min-height:10px;*/
+}
+
+table,th,td{
+	margin: 10px;
+	padding: 3px;
+	margin: 5px auto;
+	border-collapse: collapse;
+    border: 1px solid gray;
+}
+
+
+th{
+	background-color:#cccccc;
+}
+
+tr:nth-child(odd){   /*nth-child используется для добавления стиля к элементам на основе нумерации в дереве элементов.*/
+	background-color:#eff6fe;
+}
+
+tr:nth-child(even){
+	background-color:#ffffff;
+}
+
+
+.categorii_adaugare{
+	float:left;
+	border:1px solid gray;
+	margin:30px 10px;
+	padding:10px;
+	opacity:0.6;
+	background-color:white;
+	border-radius:3px;
+	position:relative;
+	left:120px;
+}
+
+.categorii_adaugare:hover{
+	opacity:1;
+	border:1px solid black;
+	cursor:move;
+}
+
+.info{
+	display:table;
+	margin: 0 auto;
+	font-family:verdana;
+}
+			
+.image{
+	margin:0 auto; 
+	display: block;
+}
+
+hr{
+	background-color: #33b5e5;
+	height:1px;
+	border: 0;
+}
+
+.buget{
+	/*top:0px;*/
+	left:-400px;
+	position:relative;
+	float:left;
+	margin:20px 70px;
+	padding:20px;
+}
+
+.scrool_table{
+	overflow-y: scroll;
+	height:400px;
+	border: 1px solid gray;
+}
+/*
+.cell_edit{
+	background-color:#f1f1f1;
+	visibility:hidden;
+}
+*/
+.opt_btn{
+	border:0px;
+	background-color:transparent;
+	margin: 0px 8px;
+}
+
+

@@ -1,0 +1,19 @@
+﻿
+
+.menu button:hover{
+	color:#7aa9c9;
+	border-bottom-color:#c0ce00;
+}
+
+.menu button:focus{  /*cind este apasat*/
+	outline: 0;  /*stergem borderul exterior standart*/
+	color:#c0ce00;
+}
+
+hr{
+	background-color: #c0ce00;
+	height:1px;
+	border: 0;
+}
+
+
